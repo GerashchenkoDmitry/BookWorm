@@ -13,6 +13,12 @@
 		DF3AF7782670AA9F003EC665 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3AF7772670AA9F003EC665 /* Preview Assets.xcassets */; };
 		DF3AF77A2670AA9F003EC665 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF7792670AA9F003EC665 /* Persistence.swift */; };
 		DF3AF77D2670AA9F003EC665 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF77B2670AA9F003EC665 /* Bookworm.xcdatamodeld */; };
+		DF3AF78B2670C846003EC665 /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF78A2670C846003EC665 /* AddBook.swift */; };
+		DF3AF78F2670D352003EC665 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF78D2670D352003EC665 /* Book+CoreDataClass.swift */; };
+		DF3AF7902670D352003EC665 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF78E2670D352003EC665 /* Book+CoreDataProperties.swift */; };
+		DF3AF79326715B4D003EC665 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF79226715B4D003EC665 /* RatingView.swift */; };
+		DF3AF79626721584003EC665 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF79526721584003EC665 /* EmojiRatingView.swift */; };
+		DF3AF79926722B09003EC665 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AF79826722B07003EC665 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		DF3AF7792670AA9F003EC665 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DF3AF77C2670AA9F003EC665 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		DF3AF77E2670AA9F003EC665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3AF78A2670C846003EC665 /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
+		DF3AF78D2670D352003EC665 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DF3AF78E2670D352003EC665 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DF3AF79226715B4D003EC665 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		DF3AF79526721584003EC665 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		DF3AF79826722B07003EC665 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +68,14 @@
 		DF3AF76F2670AA95003EC665 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				DF3AF78D2670D352003EC665 /* Book+CoreDataClass.swift */,
+				DF3AF78E2670D352003EC665 /* Book+CoreDataProperties.swift */,
 				DF3AF7702670AA95003EC665 /* BookwormApp.swift */,
 				DF3AF7722670AA95003EC665 /* ContentView.swift */,
+				DF3AF79826722B07003EC665 /* DetailView.swift */,
+				DF3AF79226715B4D003EC665 /* RatingView.swift */,
+				DF3AF79526721584003EC665 /* EmojiRatingView.swift */,
+				DF3AF78A2670C846003EC665 /* AddBook.swift */,
 				DF3AF7742670AA9F003EC665 /* Assets.xcassets */,
 				DF3AF7792670AA9F003EC665 /* Persistence.swift */,
 				DF3AF77E2670AA9F003EC665 /* Info.plist */,
@@ -144,7 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3AF79926722B09003EC665 /* DetailView.swift in Sources */,
 				DF3AF77A2670AA9F003EC665 /* Persistence.swift in Sources */,
+				DF3AF7902670D352003EC665 /* Book+CoreDataProperties.swift in Sources */,
+				DF3AF79326715B4D003EC665 /* RatingView.swift in Sources */,
+				DF3AF79626721584003EC665 /* EmojiRatingView.swift in Sources */,
+				DF3AF78F2670D352003EC665 /* Book+CoreDataClass.swift in Sources */,
+				DF3AF78B2670C846003EC665 /* AddBook.swift in Sources */,
 				DF3AF77D2670AA9F003EC665 /* Bookworm.xcdatamodeld in Sources */,
 				DF3AF7732670AA95003EC665 /* ContentView.swift in Sources */,
 				DF3AF7712670AA95003EC665 /* BookwormApp.swift in Sources */,
